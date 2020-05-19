@@ -1,0 +1,31 @@
+body {
+  font-size: 20px;
+  word-wrap: normal;
+  color: white;
+}
+
+h1, th {
+  color: #00bfff;
+}
+
+button {
+  display: inline;
+  padding: 12px;
+  margin-right:8px;
+  background-color: #282c34;
+  color: #00bfff;
+  border-color: #282c34;
+  border-style: solid;
+  font-size: 20px;
+  font-weight: 600;
+  outline: none;
+}
+
+button:hover {
+  background-color: #00bfff;
+  color: #282c34;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}

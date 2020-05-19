@@ -5,9 +5,33 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #282c34;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#root {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #00bfff;
+}
+
+iframe {
+  margin: 10%;
+  border: 0;
+  height: 110%;
+  width: 80%;
+  position: absolute;
+}
+
+/* 4x3 Aspect Ratio */
+#content-4x3 {
+  padding-top: 75%;
 }
